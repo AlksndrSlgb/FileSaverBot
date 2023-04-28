@@ -12,7 +12,7 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 @AllArgsConstructor
 public class RegistrarBotService {
 
-    private PhotoSaverBot photoSaver;
+    private FileSaverBot photoSaver;
 
     @Autowired
     private String addresses;

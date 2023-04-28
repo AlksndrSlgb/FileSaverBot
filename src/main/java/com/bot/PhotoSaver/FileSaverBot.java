@@ -16,7 +16,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @Component
-public class PhotoSaverBot extends TelegramLongPollingBot {
+public class FileSaverBot extends TelegramLongPollingBot {
 
     private final SendMessage message;
 
@@ -33,7 +33,7 @@ public class PhotoSaverBot extends TelegramLongPollingBot {
     private String botToken;
 
     @Autowired
-    public PhotoSaverBot(SendMessage sendMessage) {
+    public FileSaverBot(SendMessage sendMessage) {
         this.message = sendMessage;
     }
 
